@@ -1,23 +1,29 @@
-# Blog/Portfolio Website
+---
+description: A blank template and empty parameters file.
+page_type: sample
+products:
+- azure
+- azure-resource-manager
+urlFragment: 100-blank-template
+languages:
+- json
+- bicep
+---
+# Blank Template
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/88fc42fa-4231-42a5-aac6-40d01f5f2c4c/deploy-status)](https://app.netlify.com/sites/navendu/deploys)
+![Azure Public Test Date](https://azurequickstartsservice.blob.core.windows.net/badges/100-blank-template/PublicLastTestDate.svg)
+![Azure Public Test Result](https://azurequickstartsservice.blob.core.windows.net/badges/100-blank-template/PublicDeployment.svg)
 
-A static blog/portfolio website built using Hugo. [[See Live](https://navendu.me)]
+![Azure US Gov Last Test Date](https://azurequickstartsservice.blob.core.windows.net/badges/100-blank-template/FairfaxLastTestDate.svg)
+![Azure US Gov Last Test Result](https://azurequickstartsservice.blob.core.windows.net/badges/100-blank-template/FairfaxDeployment.svg)
 
-Built on top of the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme.
+![Best Practice Check](https://azurequickstartsservice.blob.core.windows.net/badges/100-blank-template/BestPracticeResult.svg)
+![Cred Scan Check](https://azurequickstartsservice.blob.core.windows.net/badges/100-blank-template/CredScanResult.svg)
 
-See [adityatelange/hugo-PaperMod/wiki](https://github.com/adityatelange/hugo-PaperMod/wiki) to use this theme.
+![Bicep Version](https://azurequickstartsservice.blob.core.windows.net/badges/100-blank-template/BicepVersion.svg)
 
-See [master](https://github.com/navendu-pottekkat/navendu-pottekkat.github.io/tree/master) branch for Bootstrap based website. This has been updated to Hugo based website.
+[![Deploy To Azure](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2F100-blank-template%2Fazuredeploy.json)
+[![Deploy To Azure US Gov](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazuregov.svg?sanitize=true)](https://portal.azure.us/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2F100-blank-template%2Fazuredeploy.json)
+[![Visualize](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.svg?sanitize=true)](http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2F100-blank-template%2Fazuredeploy.json)
 
-# New Features
-
-* Fixed RSS feeds
-* About page
-* Subscribe page
-* Subscribe form
-* Auto plugin content at the end of posts
-* Show "Updated On" when pages are updated and tagged with "update site"
-* Section for "Daily Logs" separated from posts
-* Consolidated "Search" and "Archive" pages
-* Opens external links on new tab and in-site links on same tab automatically in Markdown
+`Tags: empty, blank`
