@@ -1,0 +1,13 @@
+To create virtual network using command. 
+
+
+$myVNet2 = New-AzVirtualNetwork -ResourceGroupName VirtualNetPavanpersonal -Location Central India -Name myVNet2 -AddressPrefix 10.1.0.0/16
+
+Get-AzVirtualNetwork -Name myVNet2
+
+$mySubnet2 = Add-AzVirtualNetworkSubnetConfig -Name SubNetoff1 -AddressPrefix 10.4.0.1/24 -VirtualNetwork $myVNet2
+
+Get-AzVirtualNetworkSubnetConfig -Name SubNetoff1 -VirtualNetwork $myVNet2
+
+
+$mySubnet2 | Set-AzVirtualNetwork
